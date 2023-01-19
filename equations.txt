@@ -1,0 +1,6 @@
+//In this file, there are a bunch of formulas that can be plugged 
+into the equation section of the f function to make cool manifolds.
+
+1. Torus: (2 - ((r[0] + (-10*(mouseX-width/2)/width))**2 + (r[1] + (-10*(mouseY-width/2)/width))**2)**(1/2))**2 + (r[2]-20)**2;
+2. Octahedron: Math.abs(r[0]-10*(mouseX-width/2)/width) + Math.abs(r[1] + 10*(-mouseY+width/2)/width) + Math.abs(r[2]-10);
+3. Sphere: ((r[0]-10*(mouseX-width/2)/width)**2+(r[1]+ 10*(-mouseY+width/2)/width)**2+(r[2]-10)**2)**(1/2);
